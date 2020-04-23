@@ -101,6 +101,8 @@ plot.MCI = function(x, ...){
   abline(v = x_range[1], lty = 2)
   abline(v = x_range[2], lty = 2)
 }
+#' @export(MC_gui = function(){(  appDir = system.file("MC_int", package = "demo")(  shiny::runApp(appDir, display.mode = "normal")(})
+
 
 obj = mc_int(x_range = c(0,1), fun = "x^2*sin(x^2/pi)", B = 10^3)
 plot(obj)

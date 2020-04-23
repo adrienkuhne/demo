@@ -9,6 +9,8 @@ Author: Authors@R: c(
     person("Matthew", "Beckman", role = "aut")
     )
 Maintainer: Justin Lee <justinlee@psu.edu>
+Imports:
+    shiny
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
